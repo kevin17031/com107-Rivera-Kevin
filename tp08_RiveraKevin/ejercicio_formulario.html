@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<form class="form">
+		<!-- elementos input / campos de texto -->
+		<label for="id_apellido">Apellido:</label>
+		<input type="text" name="apellido" id="id_apellido">
+
+		<label for="id_nombre">Nombre:</label>
+		<input type="text" name="nombre" id="id_nombre">
+
+		<label for="id_edad">Edad:</label>
+		<input type="text" name="edad" id="id_edad">
+		<br><br>
+
+		<!-- combo simple -->
+		<label>Sexo:</label	>
+		<select name="sexo" id="id_sexo">
+			<option selected>Masculino</option>
+			<option>Femenino</option>
+			<option>otro</option>
+		
+		</select>
+		<br><br>
+
+		<!-- elementos radio / casillas de opción -->
+	    <input type="radio" name="rango_edad" value="menor_18">
+	    <label>Menor 18 años</label>
+	    <input type="radio" name="rango_edad" value="mayor_18" checked>
+	    <label>Mayor 18 años</label>
+	    <br><br>
+	    
+	    <!-- combo multiple -->
+	    <label>Idiomas:</label>
+    
+	    <select name="cmb_idiomas" id="id_cmb_idiomas" multiple>
+	      <option value="1" >Alemán</option>
+	      <option value="2" >Inglés</option>
+	      <option value="3" >Holandés</option>
+	      <option value="4" >Francés</option>
+	     
+	    </select>
+	    <br><br>
+
+	    <!-- elementos checkbox / casillas de verificación -->
+	    <input type="checkbox" name="vect_Extras[]" value="auto" checked>
+	    <label>auto</label>
+	    <input type="checkbox" name="vect_Extras[]" value="camioneta">
+	    <label>camioneta</label>
+	    <input type="checkbox" name="vect_Extras[]" value="camión">
+	    <label>camión</label>
+	    <br><br>
+
+	    <label>Comentario:</label>
+	    <textarea name="comentario" rows="5" cols="30">
+	        
+	    </textarea>
+	    <br><br>
+
+	    <br>
+	    <input type="submit" name="Enviar_datos" id="id_enviar" value="Enviar datos" >
+	    <input type="button" name="boton_borrar" id="id_borrar" value="Borrar datos" >
+	</form>
+</body>
+</html>
