@@ -1,0 +1,83 @@
+body{
+	background-color: #22193F;
+	background-image: url(images/ondas.svg);
+	background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.row{
+	height: 350px;
+	width: 800px;
+	/*todos los elementos de adaptan a la dimensiones del contenedor*/
+    background: #fff;
+    
+}
+.images{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    /*para centrar el logo*/
+    background-image: url(images/img-login.jpg);
+    background-size: cover;
+    
+}
+
+.img-logo{
+	
+	position: relative;
+	background-position: center;
+    background-size: cover;
+}
+
+
+.img-login{
+	
+	/*la imagen se ajusta al contenido*/
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.form{
+	position: relative;
+	top: 20px;
+	left: 5px;
+
+}
+
+h2{
+	font-family: "Verdana", Geneva, Tahoma, sans-serif;
+	font-size: 28px;
+	color: #22193F;
+}
+
+.btn-ingresar{
+	color: #fff;
+	font-family: "Verdana", Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	background: #E21982;
+	
+}
+
+a{
+	font-family: "Verdana", Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	color: #E21982;
+}
+
+input{
+	font-family: "Verdana", Geneva, Tahoma, sans-serif;
+	font-style: regular;
+	font-size: 16px;
+	border: #C4C4C4;
+
+}
